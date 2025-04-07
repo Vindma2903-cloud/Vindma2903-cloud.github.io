@@ -61,6 +61,7 @@ function App() {
             </div>
             <span className="product-price">{product.price.toLocaleString()} ₽</span>
             <h3 className="product-name">{product.name}</h3>
+            <button className="product-btn">Перейти</button> {/* Кнопка "Перейти" */}
           </div>
         ))}
       </main>
